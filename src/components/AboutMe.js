@@ -1,12 +1,13 @@
 import React from "react"
-import Button from "./Button"
+import ButtonPrimary from "./ButtonPrimary"
 import logo from "../images/es-logo.svg"
+import BlogCard from "./BlogCard";
 
 
 const AboutMe = () => {
   return (
-    <>
-      <div className="container content-padding-3">
+    <div className="container">
+      <div className="content-padding-3">
         <div className="aboutme-text">
         <img src={logo} className="logo" alt="logo" />
           <h2>I'm <span>Emilio Sánchez.</span> Nice to meet you.</h2>
@@ -17,10 +18,10 @@ const AboutMe = () => {
             Creating simple, streamlined solutions to complex problems is my
             goal.
           </p>
-          <Button buttonText="Get In Touch" />
+          <ButtonPrimary buttonText="Get In Touch" />
         </div>
       </div>
-    </>
+    </div>
   )
 }
 

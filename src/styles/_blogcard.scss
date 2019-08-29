@@ -1,0 +1,33 @@
+@import 'variables';
+
+.blog-item {
+    border: solid 1px $light-bg;
+    box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5);
+    border-radius: .5rem;
+    background-color: white;
+    &:hover {
+        cursor: pointer;
+    }
+    overflow: hidden;
+    &__img{
+        img {
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+    &__title {
+        h4 {
+            letter-spacing: .03rem;
+            margin: 0;
+        }
+        padding: 1rem 1rem 1rem 1rem;
+        text-align: left;
+        color: $gray-800
+    }
+    &__date {
+        padding: 0 1rem 1rem 1rem;
+        font-size: 0.9rem;
+        color: $dark-800;
+        text-align: left;
+    }
+}

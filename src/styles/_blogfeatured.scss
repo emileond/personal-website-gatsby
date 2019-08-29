@@ -1,0 +1,15 @@
+@import 'variables';
+
+.blog-featured {
+    background-color: $light-bg;
+    h2 {
+        margin-bottom: 2.5rem;
+        color: $dark-600;
+    }
+}
+
+.featured-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+}

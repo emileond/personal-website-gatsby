@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import logo from "../images/es-logo.svg"
-import Button from "./Button"
+import ButtonPrimary from "./ButtonPrimary"
 
 const Footer = ({ tecnologia }) => {
   return (
@@ -21,7 +21,7 @@ const Footer = ({ tecnologia }) => {
               </div>
               <div className="cta-box-button">
                 <div className="btn btn-container">
-                  <Button buttonText="Let's Do This" />
+                  <ButtonPrimary buttonText="Let's Do This" />
                 </div>
               </div>
             </div>

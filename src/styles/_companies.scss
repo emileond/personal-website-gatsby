@@ -1,0 +1,33 @@
+@import 'variables';
+
+.companies {
+    background-color: $light-bg;
+    h2 {
+        color: $dark-600;
+        margin-bottom: 2.5rem;
+    }
+}
+
+.experience-logos {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: .5rem;
+    align-items: center;
+    justify-items: center;
+    @media screen and (max-width: $break-sm) {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1rem;
+    }
+    &__item {
+        display: inline-block;
+        text-align: center;
+        margin: 1.5rem;
+        padding: 1rem;
+        img {
+            width: 95%
+        }
+    }
+    #renderinc {
+        width: 30%;
+}
+}

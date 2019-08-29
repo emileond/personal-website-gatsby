@@ -5,13 +5,30 @@
         text-align: center;
         font-size: 1.1rem;
         vertical-align: middle;
-        color: white;
-        background-color: $red-900;
         padding: 1rem 2.5rem;
         border-radius: 100px;
-        border: 2px solid $red-900;
-        &:hover {
-            cursor: pointer;
+        &-primary {
+            color: white;
+            border: 2px solid $red-900;
             background-color: $red-900;
+            transition: .2s all;
+            &:hover {
+                cursor: pointer;
+                background-color: $red-900;
+                transition: .2s all;
+            }
         }
+        &-secondary {
+            color: $purple-900;
+            border: 2px solid $purple-900;
+            background-color: transparent;
+            transition: .2s all;
+            &:hover {
+                cursor: pointer;
+                color: white;
+                background-color: $purple-900;
+                transition: .2s all;
+            }
+        }
+
 }
