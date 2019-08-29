@@ -22,6 +22,7 @@ Layout.propTypes = {
   children: PropTypes.node.isRequired,
 }
 
+
 // window.addEventListener('scroll', function() {
 //   if (window.pageYOffset > 100) {
 //       document.getElementById('main-nav').classList.add('navbar-scrolled')
