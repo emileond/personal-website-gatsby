@@ -1,0 +1,27 @@
+@import 'variables';
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+.content-padding-3 {
+    padding: 3rem;
+}
+.aboutme-text {
+    padding: 0 8rem;
+    svg {
+        fill: black;
+    }
+    p {
+        color: $dark-700;
+        line-height: 1.6;
+        margin-bottom: 2rem;
+    }
+    h2 {
+        color: $dark-600;
+        margin-bottom: 2.5rem;
+    }
+    span {
+        color: $purple-900;
+    }
+}

@@ -1,0 +1,17 @@
+@import 'variables';
+
+.button
+    {
+        text-align: center;
+        font-size: 1.1rem;
+        vertical-align: middle;
+        color: white;
+        background-color: $red-900;
+        padding: 1rem 2.5rem;
+        border-radius: 100px;
+        border: 2px solid $red-900;
+        &:hover {
+            cursor: pointer;
+            background-color: $red-900;
+        }
+}
