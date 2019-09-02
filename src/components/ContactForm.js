@@ -7,19 +7,20 @@ const ContactForm = ({ headline }) => {
       <div className="padding-top-3">
         <h2>{headline}</h2>
         <p>Fill out this simple form. I'll contact you promptly to discuss.</p>
-        <form name="contact" method="POST" data-netlify="true">
+        <form name="contact-form" method="POST" data-netlify="true">
           <div className="form-grid">
             <div className="form-input">
               <label>Name</label>
-              <input name="name" type="text" required></input>
+              <input name="name" type="text" placeholder="John Doe" required></input>
             </div>
             <div className="form-input">
               <label>Email</label>
-              <input name="email" type="text"></input>
+              <input name="email" type="text" placeholder="email@domain.com"></input>
             </div>
             <div className="form-input inquiry">
               <label>Inquiry</label>
-              <select>
+              <select name="inquiry">
+              <option value="" disabled selected>Select an option</option>
                 <option value="0">UX/UI Design</option>
                 <option value="1">Development</option>
                 <option value="2">Mentoring / Speaking</option>
@@ -27,7 +28,7 @@ const ContactForm = ({ headline }) => {
               </select>
             </div>
             <div className="form-input message">
-              <textarea>Lorem</textarea>
+              <textarea name="message" placeholder="Write your message"></textarea>
             </div>
           </div>
         <ButtonPrimary type="submit" buttonText="Send Message"/>

@@ -18,7 +18,6 @@ const IndexPage = () => (
     <SEO title="Emilio Sánchez - Developer & Designer" />
     <AboutMe />
     <Companies headlineText="Companies I've Collaborated With"/>
-    <BlogFeatured />
   </Layout>
 )
 
