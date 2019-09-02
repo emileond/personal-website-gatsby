@@ -8,7 +8,7 @@ const ContactForm = ({ headline }) => {
         <h2>{headline}</h2>
         <p>Fill out this simple form. I'll contact you promptly to discuss.</p>
         <form name="contact-form" method="POST" action="/success" data-netlify="true" data-netlify-honeypot="bot-field">
-        <input type="hidden" name="bot-field" />
+        <input type="hidden" name="form-name" value="contact" />
           <div className="form-grid">
             <div className="form-input">
               <label>Name</label>
