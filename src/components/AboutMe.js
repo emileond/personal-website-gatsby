@@ -1,7 +1,8 @@
 import React from "react"
 import ButtonPrimary from "./ButtonPrimary"
 import logo from "../images/es-logo.svg"
-import BlogCard from "./BlogCard";
+import { Link } from "gatsby"
+
 
 
 const AboutMe = () => {
@@ -18,7 +19,9 @@ const AboutMe = () => {
             Creating simple, streamlined solutions to complex problems is my
             goal.
           </p>
+          <Link to="/contact/">
           <ButtonPrimary buttonText="Get In Touch" />
+          </Link>
         </div>
       </div>
     </div>

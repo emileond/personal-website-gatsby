@@ -1,0 +1,57 @@
+@import 'variables';
+
+$select-arrow: 'data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDQ4IDQ4IiB3aWR0aD0iNDgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTE0LjgzIDE2LjQybDkuMTcgOS4xNyA5LjE3LTkuMTcgMi44MyAyLjgzLTEyIDEyLTEyLTEyeiIvPjxwYXRoIGQ9Ik0wLS43NWg0OHY0OGgtNDh6IiBmaWxsPSJub25lIi8+PC9zdmc+';
+$select-padding: 10px;
+$select-size: 60%;
+
+h2 {
+    color: $dark-600;
+}
+p {
+    color: $dark-700;
+}
+form {
+    margin: 0 14rem;
+}
+.form-grid {
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 3fr;
+}
+.inquiry {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+input, select, textarea {
+    -webkit-appearance: none; 
+    -moz-appearance: none;
+    appearance: none;
+    margin: .5rem 0;
+    box-sizing: border-box;
+    border: 1px solid $dark-txt;
+    border-radius: .5rem;
+    padding: 1rem;
+    width: 100%;
+}
+select {
+        background-image: url(#{$select-arrow});
+        background-position: right 0 top 50%; // better way to background-position
+        background-repeat: no-repeat;
+}
+textarea {
+    height: 200px;
+}
+.form-input {
+    color: $dark-700;
+    text-align: left;
+    padding: 0.5rem 1rem;
+}
+
+.message {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.padding-top-3 {
+    padding-top: 3rem;
+}

@@ -12,4 +12,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 1rem;
+    @media screen and (max-width: $break-sm) {
+        grid-template-columns: 1fr;
+    }
 }

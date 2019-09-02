@@ -13,7 +13,7 @@ const Layout = ({ children }) => {
     <>
       <Header/>
         <main>{children}</main>
-      <Footer tecnologia="Gatsby <3"/>
+      <Footer tecnologia="Gatsby️ 💟 ️"/>
     </>
   )
 }
@@ -23,13 +23,15 @@ Layout.propTypes = {
 }
 
 
-// window.addEventListener('scroll', function() {
-//   if (window.pageYOffset > 100) {
-//       document.getElementById('main-nav').classList.add('navbar-scrolled')
-//   }
-//   else {
-//       document.getElementById('main-nav').classList.remove('navbar-scrolled')
-//   }
-// })
+const scroll = window
+
+scroll.addEventListener('scroll', function() {
+  if (window.pageYOffset > 100) {
+      document.getElementById('main-nav').classList.add('navbar-scrolled')
+  }
+  else {
+      document.getElementById('main-nav').classList.remove('navbar-scrolled')
+  }
+})
 
 export default Layout

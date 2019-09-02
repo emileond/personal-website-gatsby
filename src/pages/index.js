@@ -19,9 +19,18 @@ const IndexPage = () => (
     <AboutMe />
     <Companies headlineText="Companies I've Collaborated With"/>
     <BlogFeatured />
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-    </div>
   </Layout>
 )
+
+// var readTime = () => {
+//   if (document.getElementById('pruebaTime').lenght  > 10  ) {
+//     console.log('5minutos')
+//   }
+//   else {
+//     console.log('12minutos')
+//   }
+// }
+
+// readTime();
 
 export default IndexPage

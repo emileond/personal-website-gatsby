@@ -5,7 +5,9 @@ import logo from "../images/es-logo.svg"
 const Header = () => (
   <header className="header">
     <nav id="main-nav" className="navbar">
+      <Link to="/">
       <img src={logo} className="logo" alt="logo" />
+      </Link>
         <ul>
           <li>
             <Link to="#">About Me</Link>
@@ -23,7 +25,7 @@ const Header = () => (
             <Link to="#">Blog</Link>
           </li>
           <li>
-            <Link to="#">Contact</Link>
+            <Link to="/contact/">Contact</Link>
           </li>
         </ul>
     </nav>

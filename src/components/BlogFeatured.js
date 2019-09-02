@@ -7,7 +7,7 @@ const BlogFeatured = () => {
     <div className="blog-featured">
       <div className="container">
         <div className="content-padding-3">
-          <h2>Featured Posts</h2>
+          <h2 id="pruebaTime">Featured Posts</h2>
           <div className="featured-grid">
             <BlogCard
               postTitle="Writting UX Case Stories"
