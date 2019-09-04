@@ -5,10 +5,10 @@ import Layout from "../components/layout"
 import ButtonPrimary from "../components/ButtonPrimary";
 import Jumbo from '../components/Jumbo';
 
-const ProjectPage = () => (
+const SuccessPage = () => (
   <Layout>
     <Jumbo/>
-    <h1>Esta sera la página de proyectos</h1>
+    <h2>Message Sent</h2>
     <ButtonPrimary buttonText="CTA TEXT" />
     <p>Now go build something great.</p>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
@@ -16,4 +16,4 @@ const ProjectPage = () => (
   </Layout>
   )
 
-  export default ProjectPage
+  export default SuccessPage

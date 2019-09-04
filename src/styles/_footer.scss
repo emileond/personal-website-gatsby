@@ -6,6 +6,7 @@
     padding: 2rem 0;
     background-color: $purple-900;
 }
+
 .cta {
     margin-top: 8rem;
     padding: 2rem 2rem;
@@ -28,10 +29,16 @@
 }
 .box-grid {
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-columns: 1.5fr 1fr 1fr;
   align-items: center;
-  padding: 1rem 0;
+  padding: 2rem 0;
   @media screen and (max-width: $break-sm) {
     grid-template-columns: repeat(1, 1fr);
   }
+}
+.footer-signature {
+  color: white;
+}
+.small-footer {
+  color: $dark-txt;
 }

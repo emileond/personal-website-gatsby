@@ -13,7 +13,7 @@ const Layout = ({ children }) => {
     <>
       <Header/>
         <main>{children}</main>
-      <Footer tecnologia="Gatsby <3"/>
+      <Footer tecnologia="Gatsby️ 💟 ️"/>
     </>
   )
 }
@@ -22,7 +22,10 @@ Layout.propTypes = {
   children: PropTypes.node.isRequired,
 }
 
-// window.addEventListener('scroll', function() {
+
+// const scroll = window
+
+// scroll.addEventListener('scroll', function() {
 //   if (window.pageYOffset > 100) {
 //       document.getElementById('main-nav').classList.add('navbar-scrolled')
 //   }
