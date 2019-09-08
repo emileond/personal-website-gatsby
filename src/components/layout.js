@@ -1,6 +1,8 @@
 import React from "react"
 import PropTypes from "prop-types"
 
+import { window, document } from 'browser-monads'
+
 import Header from "./header"
 import Footer from "./Footer"
 
@@ -23,15 +25,15 @@ Layout.propTypes = {
 }
 
 
-// const scroll = window
+const scroll = window
 
-// scroll.addEventListener('scroll', function() {
-//   if (window.pageYOffset > 100) {
-//       document.getElementById('main-nav').classList.add('navbar-scrolled')
-//   }
-//   else {
-//       document.getElementById('main-nav').classList.remove('navbar-scrolled')
-//   }
-// })
+scroll.addEventListener('scroll', function() {
+  if (window.pageYOffset > 100) {
+      document.getElementById('main-nav').classList.add('navbar-scrolled')
+  }
+  else {
+      document.getElementById('main-nav').classList.remove('navbar-scrolled')
+  }
+})
 
 export default Layout
