@@ -14,19 +14,19 @@ const Companies = ({headlineText}) => {
           <h2>{headlineText}</h2>
           <div className="experience-logos">
             <div className="experience-logos__item">
-              <img src={itexico} />
+              <img alt="logo-itexico" src={itexico} />
             </div>
             <div className="experience-logos__item">
-              <img src={yaydoo} />
+              <img alt="logo-yaydoo" src={yaydoo} />
             </div>
             <div className="experience-logos__item">
-              <img src={virket} />
+              <img alt="logo-virket" src={virket} />
             </div>
             <div className="experience-logos__item">
-              <img src={gameup} />
+              <img alt="logo-gameup" src={gameup} />
             </div>
             <div id="renderinc" className="experience-logos__item">
-              <img
+              <img alt="logo-renderinc"
                 src={renderinc}
               />
             </div>
