@@ -33,7 +33,7 @@ const Footer = ({ tecnologia }) => {
 
 
       <footer className="footer">
-        <img className="logo" src={logo} />
+        <img alt="logo-emilio-sanchez" className="logo" src={logo} />
         <p className="footer-signature">Handcrafted by Emilio Sánchez.</p>
         <small className="small-footer">Made with {tecnologia}</small>
       </footer>

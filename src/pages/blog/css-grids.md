@@ -5,7 +5,7 @@ date: 2019-07-16
 quote: 'The CSS Grid Layout is a layout system that allows us to create complex, responsive web design layouts and user interfaces easily and consistently across browsers.'
 thumbnail: '../../images/blog/writting-ux-stories.png'
 ---
-There’s a myriad of factors that your average consumer will judge your UI design on, both consciously and unconsciously. It needs to b  e neat, comprehensive, sensible, intelligent, considerate, and so on so forth. Even an inexperienced app user can get a gut feeling that something just isn’t quite right with a poorly designed UI.
+There’s a myriad of factors that your average consumer will judge your UI design on, both consciously and unconsciously. It needs to be neat, comprehensive, sensible, intelligent, considerate, and so on so forth. Even an inexperienced app user can get a gut feeling that something just isn’t quite right with a poorly designed UI.
 
 The UI is the first thing every consumer interacts with when they open an app. It tracks, then, that every app’s UI needs to leave a good first impression, as well as continual high-quality service, or else you’ll find that those users will disappear.
 
