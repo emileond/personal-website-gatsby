@@ -6,6 +6,7 @@ import Jumbo from "../components/Jumbo"
 import AboutMe from "../components/AboutMe";
 import Companies from "../components/Companies"
 import BlogFeatured from "../components/BlogFeatured";
+import Portfolio from "../components/Portfolio";
 
 
 
@@ -14,6 +15,7 @@ const IndexPage = () => (
     <Jumbo h1Title="UX Designer, Developer & Speaker" p="I design and code beautifully simple things, and I love what I do."/>
     <SEO title="Emilio Sánchez - Developer & Designer" />
     <AboutMe />
+    <Portfolio />
     <Companies headlineText="Companies I've Collaborated With"/>
     <BlogFeatured />
   </Layout>

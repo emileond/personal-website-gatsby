@@ -1,0 +1,30 @@
+@import 'variables';
+
+.portfolio {
+    background-color: $light-bg;
+    &-filters {
+        ul {
+            list-style-type: none;
+            display: flex;
+            padding-inline-start: 0;
+            justify-content: center;
+        }
+        li {
+            color: $dark-700;
+            font-size: 1.1rem;
+            padding: .5rem 1rem;
+
+        }
+    }
+    &-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 2rem;
+    }
+    &-item {
+        padding: 6rem;
+        background-color: white;
+    }
+}
+.show {
+}

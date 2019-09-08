@@ -12,7 +12,7 @@ const BlogFeatured = () => {
           <div className="featured-grid">
             <BlogCard
               postTitle="A List of the Most Used Git Commands"
-              postDate="10 Jul, 2019 · 5 min"
+              postDate="10 Jul, 2019 · 6 min"
             />
             <BlogCard
               postTitle="Learning Usability Heuristic Principles"
