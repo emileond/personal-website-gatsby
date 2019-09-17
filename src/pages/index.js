@@ -15,7 +15,7 @@ const IndexPage = () => (
     <Jumbo h1Title="UX Designer, Developer & Speaker" p="I design and code beautifully simple things, and I love what I do."/>
     <SEO title="Emilio Sánchez - Developer & Designer" />
     <AboutMe />
-    <Portfolio />
+    {/* <Portfolio /> */}
     <Companies headlineText="Companies I've Collaborated With"/>
     <BlogFeatured />
   </Layout>

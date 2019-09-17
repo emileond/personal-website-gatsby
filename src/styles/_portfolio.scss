@@ -13,16 +13,22 @@
             color: $dark-700;
             font-size: 1.1rem;
             padding: .5rem 1rem;
-
+            &:hover {
+                cursor: pointer;
+            }
         }
     }
     &-grid {
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-gap: 2rem;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 3vh;
     }
     &-item {
+        display: none;
         padding: 6rem;
         background-color: white;
     }
+}
+.show {
+    display: block;
 }
