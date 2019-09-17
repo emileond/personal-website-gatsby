@@ -7,10 +7,11 @@
     text-align: left; 
     h2 {
         color: $gray-900;
-        font-size: 1.6rem;
-        letter-spacing: -.05rem;
-        margin: 4rem 0 .5rem 0;
+        font-size: 1.45rem;
+        letter-spacing: -.570px;
+        margin: 4rem 0 0 0;
         font-weight: 600;
+        line-height: .9;
     }
     h5 {
         font-size: 1.1rem;
@@ -18,10 +19,11 @@
         letter-spacing: 0;
     }
     p {
-        color: $gray-900;
-        font-size: 1.15rem;
-        line-height: 1.8;
-        letter-spacing: -.02rem;
+        font-family: 'Lora', serif;
+        color: $gray-700;
+        font-size: 1.22rem;
+        line-height: 1.6;
+        // letter-spacing: -0.084px;
         margin-bottom: 4vh;
     }
     strong {
@@ -71,7 +73,6 @@
     }
     td {
     font-size: .97rem;
-    letter-spacing: -.01rem;
     padding: 10px 1rem;
     border-style: solid;
     border-color: #DFE1E6;

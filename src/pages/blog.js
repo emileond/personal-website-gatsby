@@ -21,6 +21,7 @@ const BlogPage = ({ data }) => {
                   imgSource={post.node.frontmatter.thumbnail.childImageSharp.fixed}
                   postTitle={post.node.frontmatter.title}
                   postDate={post.node.frontmatter.date}
+                  readTime={post.node.fields.readingTime.text}
                 >
                 <Img
                   fluid={post.node.frontmatter.thumbnail.childImageSharp.fluid}
@@ -53,13 +54,18 @@ export default BlogPage
 // Get all markdown data, in descending order by date, and grab the id, excerpt, slug, date, and title
 export const pageQuery = graphql`
   query {
-    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
+    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }
+        limit: 1000
+        ) {
       edges {
         node {
           id
           excerpt(pruneLength: 250)
           fields {
             slug
+            readingTime {
+                text
+            }
           }
           frontmatter {
             date(formatString: "MMMM DD, YYYY")

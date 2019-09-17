@@ -1,7 +1,7 @@
 ---
 path: '/blog/heuristic-principles'
 title: 'Learning Usability Heuristic Principles'
-date: 2019-08-31
+date: 2019-07-19
 quote: 'These principles were exposed by Jakob Nielsen in 1995 in his blog are 10 general or heuristic principles that must be taken into account when making interaction design.'
 thumbnail: '../../images/blog/heuristics.png'
 ---

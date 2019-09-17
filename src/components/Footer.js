@@ -13,7 +13,7 @@ const Footer = ({ tecnologia }) => {
               <div className="cta-box-headline">
                 <h3>Interested in Working Together?</h3>
               </div>
-              <div class="cta-box-description">
+              <div className="cta-box-description">
                 <p>
                   I’m always open to discussing product design work or
                   partnership opportunities.

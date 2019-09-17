@@ -16,11 +16,13 @@
         }
     }
     &__title {
+        border-top: solid 1px $light-bg;
         h4 {
+            font-weight: 500;
             letter-spacing: .03rem;
             margin: 0;
         }
-        padding: 1rem 1rem 1rem 1rem;
+        padding: 1.4rem 1rem 2rem 1rem;
         text-align: left;
         color: $gray-800
     }
