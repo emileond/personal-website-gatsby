@@ -1,8 +1,13 @@
 import React from 'react'
-import PortfolioCard from './PortfolioCard'
-import Mockup from '../images/societe-mockup.png'
+import { Link } from 'gatsby'
+import Img from "gatsby-image"
 
-// import { Link } from 'gatsby'
+import PortfolioCard from './PortfolioCard'
+import Mockup from '../images/portfolio-notes.png'
+import Overwatch from '../images/overwatch.png'
+import UkMeds from '../images/ukmeds-mockup.png'
+import UXLapse from '../images/uxlapse.png'
+import Piggo from '../images/piggo.png'
 
 const Portfolio = () => {
     const classShow = 'show' 
@@ -20,10 +25,12 @@ const Portfolio = () => {
                         </ul>
                     </div> */}
                     <div className="portfolio-grid">
-                        <PortfolioCard title="Overwatch: Designing a Multi-Dashboard" categories="UX/UI Design" img={Mockup}/>
-                        <PortfolioCard title="Motive: Creating a Design System" categories="UX/UI Design"/>
-                        <PortfolioCard title="UK Meds: Online Medical Consultations" categories="UX/UI Design"/>
-                        <PortfolioCard title="Medical Records App" categories="UX/UI Design, Front-End, Back-End"/>
+                        <PortfolioCard title="Overwatch: Drilling Dashboard" categories="UX/UI Design" img={Overwatch}/>
+                        <PortfolioCard title="UX Lapse Website" categories="Front-End, Front-End" img={UXLapse}/>
+                        <PortfolioCard title="UK Meds: Online Medical Consultations" categories="UX/UI Design" img={UkMeds}/>
+                        <PortfolioCard title="Creating UX Lapse Website" categories="UX/UI Design, Front-End" img={Mockup}/>
+                        <PortfolioCard title="Savings App" categories="Front-End, Back-End" img={Piggo}/>
+                        <PortfolioCard title="Motive: Custom Design System" categories="UX/UI Design, Front-End" img={Mockup}/>
                     </div>
                 </div>
             </div>

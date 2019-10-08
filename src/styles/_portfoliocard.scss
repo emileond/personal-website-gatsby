@@ -1,63 +1,33 @@
-@import 'variables';
-
-@mixin gradient($start-color, $end-color, $orientation) {
-    background: $start-color;
-    transition: .2s all;
-    @if $orientation == 'vertical' {
-      background: -webkit-linear-gradient(top, $start-color, $end-color);
-      background: linear-gradient(to bottom, $start-color, $end-color);
-    } @else if $orientation == 'horizontal' {
-      background: -webkit-linear-gradient(left, $start-color, $end-color);
-      background: linear-gradient(to right, $start-color, $end-color);
-    } @else {
-      background: -webkit-radial-gradient(center, ellipse cover, $start-color, $end-color);
-      background: radial-gradient(ellipse at center, $start-color, $end-color);
-    }
-  }
+@import "variables";
 
 .portfolio-card {
-    border-radius: .5rem;
-    background-color: white;
-    overflow: hidden;
-    height: 250px;
-    max-height: 250px;
-    box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5);
-    transition: .2s all;
-    &__title {
-        padding: 1rem 1rem 0 2rem;
-        h4 {
-            letter-spacing: .03rem;
-            margin: 0;
-        }
-        text-align: left;
-        color: $gray-800
-    }
-    span {
-        color: $dark-800;
-        padding: 0 1rem 0 2rem;
-        float: left;
-        text-align: left;
-    }
-    &__image {
-        position: relative;
-        object-fit: cover;
-    }
+  transition: 0.2s all;
+  overflow: hidden;
+  margin-bottom: 1rem;
+
+  &__title {
+    padding: 0.5rem 1rem 0 1rem;
+    margin: 0rem 0 0.25rem 0;
+    text-align: left;
+    color: $gray-800;
+    letter-spacing: -.01rem;
+  }
+  span {
+    font-size: 0.85rem;
+    color: $dark-800;
+    padding: 0 1rem 0 1rem;
+    float: left;
+    text-align: left;
+  }
+  &__image {
     img {
-        width: 60%;
-        position: absolute;
-        right: -1px;
-        bottom: -160px;
+      border-radius: 0.5rem;
+      max-height: 200px;
+      width: 100%;
+      object-fit: cover;
     }
-    &:hover {
-        // @include gradient($purple-900, $purple-800, vertical);
-        cursor: pointer;
-        background-image: linear-gradient($purple-900, $purple-800);
-        h4 {
-            color: white;
-        }
-        span {
-            color: $dark-txt;
-        }
-        transition: .2s all;
-    }
+  }
+  &:hover {
+    cursor: pointer;
+  }
 }

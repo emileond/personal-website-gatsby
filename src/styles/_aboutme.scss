@@ -7,9 +7,15 @@
 }
 .content-padding-3 {
     padding: 3rem;
+    @media screen and (max-width: $break-sm) {
+        padding: 1rem;
+      }
 }
 .aboutme-text {
     padding: 0 8rem;
+    @media screen and (max-width: $break-sm) {
+        padding: 0 1rem;
+      }
     svg {
         fill: black;
     }
