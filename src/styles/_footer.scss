@@ -16,6 +16,9 @@
     p {
         color: $dark-txt;
     }
+    @media screen and (max-width: $break-sm) {
+      padding: .5rem;
+    }
 }
 .cta-container {
     margin: 0 auto;
@@ -26,6 +29,7 @@
   background-color: $dark-500;
   margin-top: -5rem;
   box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px $dark-500;
+  
 }
 .box-grid {
   display: grid;

@@ -5,7 +5,7 @@ const ButtonSecondary = ({ buttonText }) => {
     <>
       <button className="button button-secondary">
         {buttonText}
-      </button>;
+      </button>
     </>
   )
 };
